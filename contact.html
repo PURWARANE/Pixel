@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+	    <link rel="stylesheet" type="text/css" href="css/style.css">  
+    </head>
+<body>
+<!-- Contact Section Start -->
+<section class="contact-section" id="contact">
+	<div class="container">
+		<div class="row"></div>
+		    <div class="contact-img">
+			    <div class="img-box">
+				    <div class="section-title">
+              <h1>Contact Me</h1></a>
+				    </div>
+			    </div>
+		    </div>
+	    </div>
+		<div class="container">
+            <form  action="include/send.php" method="POST" >
+
+			        <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name.." reuired>
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+
+              <label for="email">Email</label>
+              <input type="text" id="email" name="email" placeholder="Your email-id.." required>
+
+              <label for="phone">Phone number</label>
+              <input type="text" id="phone" name="phone" min=10 max=10 placeholder="Your phone number.." required>
+          
+              <label for="location">Location</label>
+              <select id="location" name="location" required>
+                <option value="mumbai">Mumbai</option>
+                <option value="outsidemaharashtra">Outside Maharashtra</option>
+                <option value="others">Other</option>
+              </select>
+
+              <label for="bookingtype">Type of Service</label>
+              <select id="bookingtype" name="bookingtype" required>
+                <option value="wedding">Wedding Photography</option>
+                <option value="portrait">Portrait Photography</option>
+                <option value="fashion">fashion Photography</option>
+                <option value="travel">Travel Photography</option>
+                <option value="anniversary">Anniversary Photography</option>
+                <option value="event">Event Photography</option>
+                <option value="birthday">Birthday Photography</option>
+                <option value="festival">Festival Photography</option>
+                <option value="wildlife">Wildlife Photography</option>
+              </select>
+
+              <label for="meeting_time">Choose a time for your appointment:</label>
+              <input type="datetime-local" id="meeting_time"
+              name="meeting_time" value="2018-06-12T19:30"min="2021-06-07T00:00" max="2022-12-14T00:00" required>
+
+
+              <label for="subject">Message</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea>
+          
+              <a href="index.php">
+              <input type="submit" value="Send"  ></a>
+          
+            </form>
+        </div>
+		<div class="row">
+			<div class="contact-info">
+				<div class="row">
+					<!-- Info item start -->
+					<div class="info-item">
+						<h5>Address</Address></h5>
+						<p>Nana Chawk,Grant Road,mum 400007</p>
+					</div>
+					<!-- Info item start -->
+					<!-- Info item start -->
+					<div class="info-item">
+						<h5>Phone</Address></h5>
+						<p>91 9892182056</p>
+					</div>
+					<!-- Info item start -->
+					<!-- Info item start -->
+					<div class="info-item">
+						<h5>Email</Address></h5>
+						<p>purwarane26@gmail.com</p>
+					</div>
+					<!-- Info item start -->
+				</div>
+			</div>
+		</div>
+		
+	</div>
+</section>
+<!-- Contact Section Start -->
+</body>
+
+</html>
